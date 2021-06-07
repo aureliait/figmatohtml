@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Caped</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="logo  mt-5">
+                      <img class="img-fluid" src="assets/images/logo.png" alt="">
+                    </div>
+                 </div>
+                  <div class="col-md-10">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+                <div class="container-fluid">
+                  <span class="search-bar">
+                    <img  src="assets/images/search.png" class="px-2" alt="">
+                    <input type="text" name="search"  placeholder="Search store">
+                </span>
+               <!-- My Navingation Icon -->
+                  <a href="#" id="main-menu" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" id="icon"></i>
+                  </a>                 
+                
+                  <div class="ms-end">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item px-3" >
+                        <i class="fa fa-close" style="font-size: 22px;" id="close" onclick="closed()"></i>
+                      </li>
+
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-dark" href="#">products</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link  text-dark" href="#">story</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-dark" href="#">manufacturing</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link text-dark " href="#">packaging</a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link "  href="#"><img src="assets/images/basket.png" alt=""></a>
+                      </li>
+                      <li class="nav-item px-3">
+                        <a class="nav-link "  href="#"><img src="assets/images/person.png" alt=""></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              </nav>
+            </div>
+            <!-- Left Side row -->
+            <div class="row">
+              <div class="col-md-2">
+                   <div class="row">
+                     <div class="col-md-12"><h3 class="py-5 heading" onclick="hide()" >Explore </h3 class="text-center"></div>
+                      <div id="collapse">
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/image 15.png" alt="">&nbsp;New In</div>
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/colothes.png" alt=""> Clothing</div>
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/image 8.png" alt=""> &nbsp;Shoes</div>
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/image 7.png" alt=""> &nbsp;Accessories</div>
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/image 6.png" alt="">&nbsp;Activewear</div>
+                      <div class="col-md-12 fw-bold py-3 yellow-hover"><img src="assets/images/image 4.png" alt=""> Gifts & Leaving</div>
+                      <div class="col-md-12 fw-bold pt-3 pb-5 yellow-hover"><img src="assets/images/image 5.png" alt="">Inspiration</div>
+                      <div class="col-md-12 fw-bold py-5 yellow-hover"><img src="assets/images/Vector.png" alt=""> &nbsp;Help Center</div>
+                    </div>
+                   </div>
+              </div>
+
+              <div class="col-md-10">
+                <div class="row">
+                  <!-- part one -->
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-12 py-2 text-center gal-img"> <img class="img-fluid" src="assets/images/W1.png" alt=""></div>
+                      <div class="col-md-12 py-2 gal-img text-center" ><img class="img-fluid" src="assets/images/W2.png" alt=""></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-6 mt-2 text-center gal-img"><img class="img-fluid" src="assets/images/W7.png" alt=""></div>
+                      <div class="col-md-6 mt-2 text-center gal-img"><img class="img-fluid" src="assets/images/Mask Group.png" alt=""></div>
+                    </div>
+               </div>
+               <!-- part two -->
+               <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-6 mt-2 text-center gal-img"><img class="img-fluid" src="assets/images/Mask Group (1).png" alt=""></div>
+                  <div class="col-md-6 mt-2 text-center gal-img"><img class="img-fluid" src="assets/images/second-2.png" alt=""></div>
+                    </div>
+               </div>
+               <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12 py-2 text-center gal-img"> <img class="img-fluid" src="assets/images/W5.png" alt=""></div>
+                  <div class="col-md-12 py-2 text-center gal-img"><img class="img-fluid" src="assets/images/W6.png" alt=""></div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+    function hide(){
+      var x = document.querySelector('#collapse');
+      if(x.style.display ==='none'){
+        x.style.display = 'block';
+      }else{
+        x.style.display = 'none';
+      }
+    }
+    function myFunction(){
+      var nav = document.querySelector('#navbarNav');
+      var icon = document.querySelector('#icon');
+      if(nav.style.display ==='none'){
+        nav.style.display = 'flex';
+        icon.style.display = "none"
+
+      }else{
+        nav.style.display = 'none';
+      }
+    }  
+    function closed(){
+      var nav = document.querySelector('#navbarNav');
+      var icon = document.querySelector('#icon');
+      nav.style.display = "none";
+      icon.style.display = "block";
+    }
+     
+    </script>
+  </body>
+</html>
