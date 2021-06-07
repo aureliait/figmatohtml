@@ -15,14 +15,7 @@
 input {
   border: none !important;
 }
-.nav-link::after{
-  content: "";
-  color: red;
-  width: 45%;
-}
-#main-menu{
-  display: none;
-}
+
 .gal-img:hover {
   filter: alpha(opacity=80);
   opacity: .6;
@@ -35,44 +28,22 @@ input {
 .heading{
   cursor: pointer;
 }
-#close{
-  display: none;
-}
+
 
 @media only screen  and (max-width: 900px) {
-  .logo, .serach-icon, .nav-item, .heading, .media-query{
+  .logo, .nav-item, .heading{
     text-align: center;
   }
   .heading{
     cursor: pointer;
   }
-
-  .navbar-light .navbar-toggler{
-    margin-left: 3rem;
-  }
-  .search-bar, #navbarNav{
-    display: none;
-  }
   #collapse{
     display: none;
-  }
-  #menu{
-    text-align: left !important ;
-    display: inline-block;
-  }
-  #main-menu{
-    font-size: 25px;
-    color: black;
-    display: block;
-    margin: auto;
-  }
-  #navbarNav{
-    margin-left: -12rem !important;
-  }
-  #close{
-    display: block;
   }
   .yellow-hover{
     text-align: center;
   } 
+  .ms-end{
+    text-align: center !important;
+  }
 }
